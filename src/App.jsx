@@ -30,10 +30,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <button onClick={
-          () => {throw new Error("This is your first error!");}
-        }>
-        Break the world
+      <button onClick={() => console.log('Hello from Sentry!')}>
+        Test Sentry
       </button>
     </>
   )
